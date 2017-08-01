@@ -20,7 +20,7 @@ var results = struct {
 func main() {
 	url := flag.String("url", "site.com/robots.txt", "URL to unify versions of (without protocol prefix)")
 	output := flag.String("output", "output.txt", "File to save results in")
-	concurrency := flag.Int("concurrency", 1, "Number of requests to make in prallel")
+	concurrency := flag.Int("concurrency", 1, "Number of requests to make in parallel")
 	substrings := flag.String("sub", "Disallow,disallow", "list of comma-separated substrings to look for in snapshots (snapshots will only be considered if they contnain one of them)")
 
 	flag.Parse()

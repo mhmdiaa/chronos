@@ -13,7 +13,7 @@ go install
 ### Syntax
 ```
   -concurrency int
-        Number of requests to make in prallel (default 1)
+        Number of requests to make in parallel (default 1)
   -output string
         File to save results in (default "output.txt")
   -sub string
