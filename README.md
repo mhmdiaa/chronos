@@ -6,7 +6,7 @@ Chronos (previously known as WaybackUnifier) extracts pieces of data from a web 
 
 ## Installation
 ### From binary
-Download a prebuilt binary https://github.com/mhmdiaa/chronos/releases/latest
+Download a prebuilt binary from the [releases page](https://github.com/mhmdiaa/chronos/releases/latest) and unzip it.
 
 ### From source
 Use `go get` to download and install the latest version
