@@ -1,0 +1,32 @@
+on:
+  release:
+    types: [created]
+
+jobs:
+  releases-matrix:
+    name: Release Go Binary
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        goos: [linux, darwin]
+        goarch: ["386", amd64, arm64]
+        exclude:
+          - goarch: "386"
+            goos: darwin
+    steps:
+      - name: Get Release Info
+        run: |
+          echo "RELEASE_TAG=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
+          echo "REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+          echo "OS_NAME=${{ matrix.goos }}" >> $GITHUB_ENV
+      - name: OS darwin
+        if: matrix.goos == 'darwin'
+        run: echo "OS_NAME=macOS" >> $GITHUB_ENV
+      - uses: actions/checkout@v3
+      - uses: wangyoucao577/go-release-action@v1.51
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          goos: ${{ matrix.goos }}
+          goarch: ${{ matrix.goarch }}
+          asset_name: '${{ env.REPOSITORY_NAME }}_${{ env.RELEASE_TAG }}_${{ env.OS_NAME }}_${{ matrix.goarch }}'
+  
