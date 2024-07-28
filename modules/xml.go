@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/antchfx/xmlquery"
-	"github.com/mhmdiaa/chronos/pkg/logger"
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/pkg/logger"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 )
 
 type XML struct {

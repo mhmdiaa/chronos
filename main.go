@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mhmdiaa/chronos/modules"
-	"github.com/mhmdiaa/chronos/pkg/config"
-	"github.com/mhmdiaa/chronos/pkg/logger"
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/modules"
+	"github.com/mhmdiaa/chronos/v2/pkg/config"
+	"github.com/mhmdiaa/chronos/v2/pkg/logger"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"github.com/antchfx/htmlquery"
-	"github.com/mhmdiaa/chronos/pkg/logger"
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/pkg/logger"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 )
 
 type HTML struct {

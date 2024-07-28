@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mhmdiaa/chronos/pkg/logger"
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/pkg/logger"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 	"gopkg.in/yaml.v2"
 )
 

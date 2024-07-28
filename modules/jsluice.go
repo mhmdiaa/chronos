@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/BishopFox/jsluice"
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 )
 
 type JSLuice struct {

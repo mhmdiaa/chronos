@@ -3,7 +3,7 @@ package modules
 import (
 	"sync"
 
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 )
 
 type Full struct {

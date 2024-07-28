@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/mhmdiaa/chronos/pkg/wayback"
+	"github.com/mhmdiaa/chronos/v2/pkg/wayback"
 )
 
 type Regex struct {

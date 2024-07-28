@@ -1,4 +1,4 @@
-module github.com/mhmdiaa/chronos
+module github.com/mhmdiaa/chronos/v2
 
 go 1.21
 

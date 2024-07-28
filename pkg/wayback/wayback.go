@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/mhmdiaa/chronos/pkg/logger"
+	"github.com/mhmdiaa/chronos/v2/pkg/logger"
 )
 
 type Filters struct {
