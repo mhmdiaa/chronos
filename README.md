@@ -15,10 +15,6 @@ Wayback Machine OSINT Framework
 - [Command-line Options](#command-line-options)
 
 ## Installation
-### From binary
-Download a prebuilt binary from the [releases page](https://github.com/mhmdiaa/chronos/releases/latest).
-
-### From source
 ```
 go install github.com/mhmdiaa/chronos@latest
 ```
