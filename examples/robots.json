@@ -1,5 +1,0 @@
-{
-        "path": "/robots.txt",
-        "match": "Disallow",
-        "extract": "(?:\\s)(/.*)"
-}

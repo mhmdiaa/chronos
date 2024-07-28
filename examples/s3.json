@@ -1,3 +1,0 @@
-{
-        "extract": "(?i)^([https:\\/\\/]*s3\\.amazonaws.com[\\/]+.*|[a-zA-Z0-9_-]*\\.s3\\.amazonaws.com\\/.*)$"
-}
